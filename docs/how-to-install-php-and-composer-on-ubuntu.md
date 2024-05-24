@@ -28,7 +28,7 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 composer --version
 ```
 
-- laravel 如何建立新專案
+- Laravel 如何建立新專案
 ```sh
 # 建立新專案
 composer create-project laravel/laravel chirper
@@ -36,4 +36,14 @@ composer create-project laravel/laravel chirper
 # 執行測試環境
 cd chirper
 php artisan serve
+```
+
+- 安裝 Laravel Breeze 會員模組
+```sh
+# 安裝模組
+composer require laravel/breeze --dev
+php artisan breeze:install blade
+
+# 編譯 Vite
+npm run dev
 ```
