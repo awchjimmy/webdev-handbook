@@ -6,7 +6,9 @@
 sudo apt update
 
 # 安裝 php
-sudo apt install php php-cli php-mbstring php-xml php-zip php-curl
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install php8.2 php8.2-cli php8.2-fpm php8.2-mysql php8.2-xml php8.2-mbstring php8.2-curl php8.2-zip php8.2-gd
 
 # 檢查 php 版本
 php -v
