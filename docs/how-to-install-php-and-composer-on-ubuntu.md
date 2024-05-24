@@ -1,6 +1,6 @@
 # webdev draft
 
-- 如何安裝 php
+### 如何安裝 php
 ```sh
 # 更新
 sudo apt update
@@ -12,7 +12,7 @@ sudo apt install php php-cli php-mbstring php-xml php-zip php-curl
 php -v
 ```
 
-- 如何安裝 composer
+### 如何安裝 composer
 ```sh
 # 下載安裝檔
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
@@ -28,7 +28,7 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 composer --version
 ```
 
-- Laravel 如何建立新專案
+### Laravel 如何建立新專案
 ```sh
 # 建立新專案
 composer create-project laravel/laravel chirper
@@ -40,7 +40,7 @@ php artisan serve
 
 ---
 
-- 如何安裝 node & npm
+### 如何安裝 node & npm
 ```sh
 # 安裝
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
@@ -50,7 +50,9 @@ sudo apt install -y nodejs
 npm -v
 ```
 
-- 安裝 Laravel Breeze 會員模組
+### 安裝 Laravel Breeze 會員模組
+備註：需要先安裝 node & npm
+
 ```sh
 # 安裝模組
 composer require laravel/breeze --dev
