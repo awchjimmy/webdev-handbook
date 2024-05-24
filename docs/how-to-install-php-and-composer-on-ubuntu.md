@@ -38,6 +38,18 @@ cd chirper
 php artisan serve
 ```
 
+---
+
+- 如何安裝 node & npm
+```sh
+# 安裝
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+
+# 檢查 npm 版本
+npm -v
+```
+
 - 安裝 Laravel Breeze 會員模組
 ```sh
 # 安裝模組
