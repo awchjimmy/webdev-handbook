@@ -27,3 +27,13 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 # 檢查 composer 版本
 composer --version
 ```
+
+- laravel 如何建立新專案
+```sh
+# 建立新專案
+composer create-project laravel/laravel chirper
+
+# 執行測試環境
+cd chirper
+php artisan serve
+```
